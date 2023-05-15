@@ -13,7 +13,26 @@
 		8639E62C2A12702300DEB12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8639E62A2A12702300DEB12D /* Main.storyboard */; };
 		8639E62E2A12702400DEB12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8639E62D2A12702400DEB12D /* Assets.xcassets */; };
 		8639E6312A12702400DEB12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8639E62F2A12702400DEB12D /* LaunchScreen.storyboard */; };
+		8639E6492A12745100DEB12D /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E6482A12745100DEB12D /* NetworkServices.swift */; };
+		8639E64D2A1274F500DEB12D /* DataFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E64B2A1274F300DEB12D /* DataFetcherTests.swift */; };
+		8639E64F2A1275CC00DEB12D /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E64E2A1275CC00DEB12D /* DataFetcher.swift */; };
+		8639E6532A1283F000DEB12D /* HideAndSeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E6522A1283F000DEB12D /* HideAndSeek.swift */; };
+		8639E6552A12874400DEB12D /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E6542A12874400DEB12D /* Search.swift */; };
+		8639E6572A128AB100DEB12D /* HideAndSeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E6562A128AB100DEB12D /* HideAndSeekTests.swift */; };
+		8639E65A2A12946800DEB12D /* Seeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E6592A12946800DEB12D /* Seeker.swift */; };
+		8639E65C2A1294CC00DEB12D /* SeekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E65B2A1294CC00DEB12D /* SeekerTests.swift */; };
+		8639E65E2A12962700DEB12D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8639E65D2A12962700DEB12D /* Game.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8639E6432A1273E200DEB12D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8639E6192A12702300DEB12D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8639E6202A12702300DEB12D;
+			remoteInfo = "Fake, Mock, Stub";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8639E6212A12702300DEB12D /* Fake, Mock, Stub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake, Mock, Stub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +43,27 @@
 		8639E62D2A12702400DEB12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8639E6302A12702400DEB12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8639E6322A12702400DEB12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8639E63F2A1273E200DEB12D /* Fake, Mock, Stub Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake, Mock, Stub Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8639E6482A12745100DEB12D /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		8639E64B2A1274F300DEB12D /* DataFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherTests.swift; sourceTree = "<group>"; };
+		8639E64E2A1275CC00DEB12D /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		8639E6522A1283F000DEB12D /* HideAndSeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndSeek.swift; sourceTree = "<group>"; };
+		8639E6542A12874400DEB12D /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Search.swift; path = ../../Search.swift; sourceTree = "<group>"; };
+		8639E6562A128AB100DEB12D /* HideAndSeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndSeekTests.swift; sourceTree = "<group>"; };
+		8639E6592A12946800DEB12D /* Seeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seeker.swift; sourceTree = "<group>"; };
+		8639E65B2A1294CC00DEB12D /* SeekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekerTests.swift; sourceTree = SOURCE_ROOT; };
+		8639E65D2A12962700DEB12D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8639E61E2A12702300DEB12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8639E63C2A1273E200DEB12D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8639E6232A12702300DEB12D /* Fake, Mock, Stub */,
+				8639E64A2A12749600DEB12D /* Delegates */,
+				8639E6402A1273E200DEB12D /* Fake, Mock, Stub Tests */,
 				8639E6222A12702300DEB12D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				8639E6212A12702300DEB12D /* Fake, Mock, Stub.app */,
+				8639E63F2A1273E200DEB12D /* Fake, Mock, Stub Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +95,62 @@
 		8639E6232A12702300DEB12D /* Fake, Mock, Stub */ = {
 			isa = PBXGroup;
 			children = (
-				8639E6242A12702300DEB12D /* AppDelegate.swift */,
-				8639E6262A12702300DEB12D /* SceneDelegate.swift */,
 				8639E6282A12702300DEB12D /* ViewController.swift */,
+				8639E6582A12943D00DEB12D /* Lab Files */,
+				8639E6512A127E1100DEB12D /* Beta Lab Files */,
+				8639E6502A127DE700DEB12D /* Lab Examples Files */,
 				8639E62A2A12702300DEB12D /* Main.storyboard */,
 				8639E62D2A12702400DEB12D /* Assets.xcassets */,
 				8639E62F2A12702400DEB12D /* LaunchScreen.storyboard */,
 				8639E6322A12702400DEB12D /* Info.plist */,
 			);
 			path = "Fake, Mock, Stub";
+			sourceTree = "<group>";
+		};
+		8639E6402A1273E200DEB12D /* Fake, Mock, Stub Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8639E65B2A1294CC00DEB12D /* SeekerTests.swift */,
+				8639E6562A128AB100DEB12D /* HideAndSeekTests.swift */,
+				8639E64B2A1274F300DEB12D /* DataFetcherTests.swift */,
+			);
+			path = "Fake, Mock, Stub Tests";
+			sourceTree = "<group>";
+		};
+		8639E64A2A12749600DEB12D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8639E6242A12702300DEB12D /* AppDelegate.swift */,
+				8639E6262A12702300DEB12D /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8639E6502A127DE700DEB12D /* Lab Examples Files */ = {
+			isa = PBXGroup;
+			children = (
+				8639E6482A12745100DEB12D /* NetworkServices.swift */,
+				8639E64E2A1275CC00DEB12D /* DataFetcher.swift */,
+			);
+			path = "Lab Examples Files";
+			sourceTree = "<group>";
+		};
+		8639E6512A127E1100DEB12D /* Beta Lab Files */ = {
+			isa = PBXGroup;
+			children = (
+				8639E6522A1283F000DEB12D /* HideAndSeek.swift */,
+				8639E6542A12874400DEB12D /* Search.swift */,
+			);
+			path = "Beta Lab Files";
+			sourceTree = "<group>";
+		};
+		8639E6582A12943D00DEB12D /* Lab Files */ = {
+			isa = PBXGroup;
+			children = (
+				8639E65D2A12962700DEB12D /* Game.swift */,
+				8639E6592A12946800DEB12D /* Seeker.swift */,
+			);
+			path = "Lab Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +173,24 @@
 			productReference = 8639E6212A12702300DEB12D /* Fake, Mock, Stub.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8639E63E2A1273E200DEB12D /* Fake, Mock, Stub Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8639E6452A1273E200DEB12D /* Build configuration list for PBXNativeTarget "Fake, Mock, Stub Tests" */;
+			buildPhases = (
+				8639E63B2A1273E200DEB12D /* Sources */,
+				8639E63C2A1273E200DEB12D /* Frameworks */,
+				8639E63D2A1273E200DEB12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8639E6442A1273E200DEB12D /* PBXTargetDependency */,
+			);
+			name = "Fake, Mock, Stub Tests";
+			productName = "Fake, Mock, Stub Tests";
+			productReference = 8639E63F2A1273E200DEB12D /* Fake, Mock, Stub Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +203,10 @@
 				TargetAttributes = {
 					8639E6202A12702300DEB12D = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					8639E63E2A1273E200DEB12D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8639E6202A12702300DEB12D;
 					};
 				};
 			};
@@ -116,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				8639E6202A12702300DEB12D /* Fake, Mock, Stub */,
+				8639E63E2A1273E200DEB12D /* Fake, Mock, Stub Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8639E63D2A1273E200DEB12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +254,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8639E64F2A1275CC00DEB12D /* DataFetcher.swift in Sources */,
+				8639E65E2A12962700DEB12D /* Game.swift in Sources */,
 				8639E6292A12702300DEB12D /* ViewController.swift in Sources */,
 				8639E6252A12702300DEB12D /* AppDelegate.swift in Sources */,
+				8639E6532A1283F000DEB12D /* HideAndSeek.swift in Sources */,
+				8639E6492A12745100DEB12D /* NetworkServices.swift in Sources */,
 				8639E6272A12702300DEB12D /* SceneDelegate.swift in Sources */,
+				8639E65A2A12946800DEB12D /* Seeker.swift in Sources */,
+				8639E6552A12874400DEB12D /* Search.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8639E63B2A1273E200DEB12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8639E64D2A1274F500DEB12D /* DataFetcherTests.swift in Sources */,
+				8639E6572A128AB100DEB12D /* HideAndSeekTests.swift in Sources */,
+				8639E65C2A1294CC00DEB12D /* SeekerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8639E6442A1273E200DEB12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8639E6202A12702300DEB12D /* Fake, Mock, Stub */;
+			targetProxy = 8639E6432A1273E200DEB12D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8639E62A2A12702300DEB12D /* Main.storyboard */ = {
@@ -334,6 +474,40 @@
 			};
 			name = Release;
 		};
+		8639E6462A1273E200DEB12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example1.Fake--Mock--Stub-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake, Mock, Stub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fake, Mock, Stub";
+			};
+			name = Debug;
+		};
+		8639E6472A1273E200DEB12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example1.Fake--Mock--Stub-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fake, Mock, Stub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fake, Mock, Stub";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +525,15 @@
 			buildConfigurations = (
 				8639E6362A12702400DEB12D /* Debug */,
 				8639E6372A12702400DEB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8639E6452A1273E200DEB12D /* Build configuration list for PBXNativeTarget "Fake, Mock, Stub Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8639E6462A1273E200DEB12D /* Debug */,
+				8639E6472A1273E200DEB12D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
